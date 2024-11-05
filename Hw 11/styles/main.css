@@ -1,0 +1,314 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    width:1440px;
+font-family: Cera Pro ;
+
+}
+.footer-container{
+  max-width: 1200px;
+ margin: 0 auto;
+}
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap:62px;
+  max-width: 1200px;
+min-height: 250px;
+background-color: #FBFBFB;
+
+    
+}
+.service{
+   width: 204px;
+  min-height: 202px;
+padding-top: 24px;
+border-right: 1px solid  #46A3581A;
+
+padding-right: 30px;
+
+
+
+
+ 
+}
+
+
+.service:first-child{
+    padding-left: 24px;
+}
+.service:nth-child(3) {
+border-right: none;
+}
+
+.service h3{
+    
+font-size: 17px;
+font-weight: 700;
+line-height: 16px;
+padding-bottom: 8px;
+color:#3D3D3D;
+
+}
+.service img{
+   max-width: 83px;
+   min-height: 92px;
+  
+}
+.service p{
+  color: #727272;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+   
+    
+}
+.newsletter {
+   max-width: 354px;
+height: 202px;
+margin-top: 24px ;
+
+}
+.newsletter h3{
+    width: 298px;
+    height:16px;
+font-size: 18px;
+font-weight: 700;
+line-height: 16px;
+margin-top: 25px;
+color: #3D3D3D;
+
+
+}
+.newsletter form{
+    width: 354px;
+height: 40px;
+
+display: flex;
+align-items: center;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+padding: 12px 0px 12px 11px;
+color: #ACACAC;
+
+border-radius: 6px 0px 0px 0px;
+background-color: #FFFFFF;
+margin-top: 24px;
+
+}
+.newsletter p{
+ max-width: 354px;
+height: 89px;
+color: #727272;
+margin-top: 18px;
+}
+.newsletter button{
+    width: 85px;
+height: 40px;
+background-color:   #46A358;
+color:  #FFFFFF;
+
+font-size: 18px;
+font-weight: 700;
+line-height: 16px;
+
+cursor: pointer;
+margin-left: 86px;
+border-radius: 0px 6px 6px 0px;
+border: none;
+
+
+
+}
+.newsletter button:hover{
+    background-color: #4aa95d;
+}
+.newsletter input {
+    width: 172px;
+height: 16px;
+border:none;
+
+}
+.footer-middle{
+    display: flex;
+
+    width: 1200px;
+height: 88px;
+background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+
+
+}
+
+ 
+
+.contact-info{
+    display: flex;
+   align-items: center;
+ gap:155px;
+ padding-left: 24px;
+
+}
+
+.contact-logo img{
+    width: 150px;
+height: 34.3px;
+
+
+}
+
+.icon-small {
+    width: 14px;
+    height: 14px;
+  
+}
+.address{
+
+    width: 205px;
+    height: 44px;
+  color:  #3D3D3D;
+
+
+    
+    
+}
+.address, .email , .phone {
+    display: flex;
+    align-items: center;
+   gap: 8px;
+}
+.email  {
+    width: 195px;
+height: 22px;
+text-decoration: none;
+
+
+}
+.address, .email a , .phone a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+ color:  #3D3D3D;
+ text-decoration: none;
+    
+}
+.phone    {
+    width: 140px;
+height: 22px;
+
+}
+.footer-bottom{
+    width: 1200px;
+height: 236px;
+background: #FBFBFB;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+border-bottom:2px solid #46A35833;
+
+
+}
+
+
+.links{
+    gap:140px;
+    width: 137px;
+height: 174px;
+margin-top:33px;
+margin-left: 24px;
+
+}
+.footer-bottom .links li a{
+text-decoration: none;
+
+color: #3D3D3D;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+
+}
+.footer-bottom h4{
+    width: 112px;
+height: 16px;
+color: #3D3D3D;
+
+font-size: 18px;
+font-weight: 700;
+line-height: 16px;
+text-align: left;
+
+
+}
+.reserved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coopright{
+    width: 257px;
+height: 30px;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+color:#3D3D3D;
+
+
+}
+.icons {
+    display: flex;
+    gap:10px;
+}
+.icon {
+   margin-top:20px;
+   margin-bottom: 33px;
+    position: relative;
+    width: 30px;
+height: 30px;
+border: 1px solid #46A35833;
+border-radius:6px ;
+color:#46A35899;
+
+
+}
+.icon img{
+    position: absolute;
+    top:20%;
+ left: 20%;
+    width: 16px;
+    height: 16px;
+}
+.icon:hover{
+  color: #6ab97b99;
+  border-color: #33683f99 ;
+  
+}
+.social-media h4{
+    width: 106px;
+    height: 16px;
+  color:  #3D3D3D;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    
+}
+.social-media{
+    width: 224px;
+height: 154px;
+margin-top: 33px;
+}
+.pay-pal{
+    width: 218px;
+height: 26px;
+padding-top: 12px;
+
+}
